@@ -1,0 +1,40 @@
+module.exports={
+	mysql:{
+		host:"192.168.2.8",
+		user:"ms_test",
+		password:"dev@ds365",
+		port:"3306",
+		database:"ds_promotiontest"	
+	},
+	mssql:{
+		server:"192.168.2.14",
+		user:"dev_sql_365",
+		password:"dev@ds365",
+		port:"12433",
+		database:"ds365_test"
+	},
+	redis:{
+		host:"192.168.2.8",
+		port:"7379",
+		dbIndex:"5",
+		key:'DSHL.ActivityScheduler.Activity',
+		finishKey:'DSHL.ActivityScheduler.FinishActivity'
+	},
+	activityapi:{
+		host:'searchapijtest.ds365.com',
+		path:'/dshl/search/rebuild/goods/_byactivity'
+	},
+	goodsapi:{
+		host:'goodsapijtest.ds365.com',
+		path:'/dshl/goods/clear/clearcache'
+	},
+	budgetapi:{
+		host:"budgetin-test.ds365.com",
+		path:"/Budget/OverDueCoupon"
+	},
+	schedulerCron:{
+		cleanActivityCron:'0 1 0 * * *',
+		monitorActivityCron:'0 */1 * * * *',
+		couponTaskCron:'0 1 0 * * *'
+	}	
+}

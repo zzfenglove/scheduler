@@ -1,0 +1,4 @@
+[2017-07-25 13:32:51.886] [INFO] activity - nimadan
+[2017-07-25 22:27:00.008] [INFO] activity - [通知开始]2326:满了2017c2017-07-25 21:26:34:2017-07-25T14:26:34.000Z
+[2017-07-25 22:27:00.043] [INFO] activity - [接收到的消息]---[请求消息：]{"type":14,"clearActivityType":0,"areaIds":[25120]}[返回消息：]{"responseHeader":{"time":1500992836720,"message":"SUCCESS","code":200,"version":null},"data":true}
+[2017-07-25 22:27:01.846] [INFO] activity - [接收到的消息]---[请求消息：]{"id":2326,"type":0,"activityType":1,"areaId":25120}[返回消息：]{"responseHeader":{"time":1500992835624,"message":"SUCCESS","code":200,"version":"1.0.0"},"data":{"rebuildCount":37}}

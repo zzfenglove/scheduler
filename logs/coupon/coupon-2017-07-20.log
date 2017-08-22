@@ -1,0 +1,8 @@
+[2017-07-20 17:35:00.007] [INFO] coupon - aaaaaa
+[2017-07-20 17:35:00.092] [INFO] coupon - 共有1页
+[2017-07-20 17:35:00.092] [INFO] coupon - 当前页：1
+[2017-07-20 17:35:00.263] [INFO] coupon - [接收到的消息]---[请求消息：][{"UserID":26971,"cost":10,"RegionId":191},{"UserID":27031,"cost":1,"RegionId":643},{"UserID":24,"cost":1,"RegionId":643},{"UserID":27040,"cost":2,"RegionId":643},{"UserID":22271,"cost":158,"RegionId":643},{"UserID":21590,"cost":70,"RegionId":643}][返回消息：]{"lid":"rDdbK6iiF0WnZg4aeBsPcA","msg":"操作成功","status":1,"data":true}
+[2017-07-20 17:36:00.006] [INFO] coupon - aaaaaa
+[2017-07-20 17:36:00.044] [INFO] coupon - 共有1页
+[2017-07-20 17:36:00.044] [INFO] coupon - 当前页：1
+[2017-07-20 17:36:00.140] [INFO] coupon - [接收到的消息]---[请求消息：][{"UserID":26971,"cost":10,"RegionId":191},{"UserID":27031,"cost":1,"RegionId":643},{"UserID":24,"cost":1,"RegionId":643},{"UserID":27040,"cost":2,"RegionId":643},{"UserID":22271,"cost":158,"RegionId":643},{"UserID":21590,"cost":70,"RegionId":643}][返回消息：]{"lid":"b6Geb6Koa0itWJa8FIgBBg","msg":"操作成功","status":1,"data":true}

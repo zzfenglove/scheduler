@@ -1,0 +1,32 @@
+{
+    "appenders":
+        [
+            {
+                "type":"console",
+                "category":"console"
+            },     
+            {
+                "category":"coupon",
+                "type": "dateFile",
+                "filename": "./logs/coupon/coupon",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log"
+
+            },
+            {
+                "category":"activity",
+                "type": "dateFile",
+                "filename": "./logs/activity/activity",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log"
+
+            }
+        ],
+    "replaceConsole": true,
+    "levels":
+    {
+        "console":"ALL",
+        "coupon":"coupon",
+        "activity":"activity"
+    }
+}
